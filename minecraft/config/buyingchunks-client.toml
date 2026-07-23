@@ -1,0 +1,13 @@
+["Particle Overlay"]
+	#Reichweite fur Partikel-Overlay (in Chunks)
+	# Default: 3
+	# Range: 1 ~ 8
+	particleRadius = 3
+	#Abstand zwischen Partikeln entlang der Chunk-Kante (1 = dicht, 4 = sparlicher)
+	# Default: 4
+	# Range: 1 ~ 8
+	particleStep = 4
+	#Frames zwischen Partikel-Spawns (1 = jedes Frame, 6 = alle 6 Frames)
+	# Default: 6
+	# Range: 1 ~ 20
+	particleInterval = 6

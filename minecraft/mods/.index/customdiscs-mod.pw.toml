@@ -1,0 +1,18 @@
+filename = 'customdiscs-1.1.0.jar'
+name = 'Custom Discs'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '32001e6b52d1a03e8b016db8e81bada206dc75b182302223349530a118a2b93f7ed57b1f4a449af65f5ab502288a1f1a89f257e2bfb08a7e698907bde453c51b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3sTE0a54/versions/SA03lXMA/customdiscs-1.1.0.jar'
+
+[update.modrinth]
+mod-id = '3sTE0a54'
+version = 'SA03lXMA'

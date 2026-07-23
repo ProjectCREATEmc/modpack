@@ -1,0 +1,21 @@
+filename = 'origins-0.2.1.jar'
+name = 'Origins (NeoForge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.2.1'
+
+[download]
+hash = 'f17b6302722b57aa4b116bd4aeb6417bfda677d008cb3d0ca1472ec2ecddad612c46b0b8834efbf2d70a27e23ff2798e2e6f88991bd614adeaa67c05d51afdf7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QaMa6tXQ/versions/9Dji4O0h/origins-0.2.1.jar'
+
+[update.modrinth]
+mod-id = 'QaMa6tXQ'
+version = '9Dji4O0h'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XbiLGMMU'
+type = 'REQUIRED'

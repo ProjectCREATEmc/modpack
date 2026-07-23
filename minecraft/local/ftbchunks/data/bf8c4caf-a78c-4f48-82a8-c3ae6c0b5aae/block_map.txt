@@ -1,0 +1,11 @@
+#189B99 minecraft:barrel
+#AA950D create:chain_conveyor
+#E7F5B7 create:creative_crate
+#73CA69 create:creative_motor
+#80497A minecraft:dirt
+#44F408 create:factory_gauge
+#3F84B7 minecraft:grass_block
+#062882 create:package_frogport
+#0FD370 create:packager
+#FDEE07 create:stock_link
+#81EAD7 create:stock_ticker
