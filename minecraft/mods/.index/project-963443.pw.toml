@@ -1,0 +1,16 @@
+filename = 'OptiFine_1.20.1_HD_U_I6.jar'
+name = 'project-963443'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '227914ab1037762eae44a2e66a568b87d7a02365'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5041320
+project-id = 963443

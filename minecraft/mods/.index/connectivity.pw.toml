@@ -1,21 +1,16 @@
-filename = 'connectivity-1.21.1-7.6.jar'
+filename = 'connectivity-1.20.1-6.1.jar'
 name = 'Connectivity'
 side = 'server'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'connectivity-1.21.1-7.6.jar'
 
 [download]
-hash = '6adebe84f745dec8fa33bc3982383bc1cc24d49e'
+hash = 'c520332ad8756e792e9b0a81758c64a7c32d011b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7367221
+file-id = 5943092
 project-id = 470193
-
-[[x-prismlauncher-dependencies]]
-addonId = '326652'
-type = 'REQUIRED'

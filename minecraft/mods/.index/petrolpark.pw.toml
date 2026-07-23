@@ -1,18 +1,16 @@
-filename = 'petrolpark-1.21.1-1.4.36.jar'
+filename = 'petrolpark-1.20.1-1.0.6.jar'
 name = "Petrolpark's Library"
 side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.21.1-1.4.36'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4175f52614bde092e8fd216dcb0f4dcab56a79aecdd66a45cbecedd3cd117602e065a77c3eeaeb04c66f419c81ecdd8e9a3ee3c311713f210c0526c3cdf0da95'
+hash = 'e4003dedb673d8cc67b9961a88f4c9bfa2e27a32d334bd1ebc006dea2c23c6e0f943bd56392a54b330dd9488dc3a47316dba977c84cc77122c82f090dbf3c7b7'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ik2WZkTZ/versions/4NOlw0J6/petrolpark-1.21.1-1.4.36.jar'
+url = 'https://cdn.modrinth.com/data/ik2WZkTZ/versions/fBVOTUaX/petrolpark-1.20.1-1.0.6.jar'
 
 [update.modrinth]
 mod-id = 'ik2WZkTZ'
-version = '4NOlw0J6'
+version = 'fBVOTUaX'

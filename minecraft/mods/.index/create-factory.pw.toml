@@ -1,33 +1,16 @@
-filename = 'create_factory-0.7a-1.21.1.jar'
+filename = 'create_factory-0.4b-1.20.1.jar'
 name = 'Create: Factory'
 side = 'both'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.7a-1.21.1'
 
 [download]
-hash = '21e66b06a9d73168f5fb438feb141b1db53cb4c6fd892dc9d6ba2a77a50267131c68e6904019c523c2c55803ebb68ff91d6ec0194127b0564bc6003a4c1cd454'
+hash = 'e016e65391ada1f7c07294b9ffbe6785d4ee17acc6525a775280bc588f3c1567afb4d983c6eade0e34d9600ab81ef4bfc46efdf3e2f1a657b8e4aca4e4cc092e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/j6Zt3N7W/versions/8RgwHaKI/create_factory-0.7a-1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/j6Zt3N7W/versions/aJ3y7MOJ/create_factory-0.4b-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'j6Zt3N7W'
-version = '8RgwHaKI'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'WPE5gRs9'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'u6dRKJwZ'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'NCKpPR0Z'
-type = 'OPTIONAL'
+version = 'aJ3y7MOJ'

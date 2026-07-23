@@ -1,18 +1,16 @@
-filename = 'DnDesires-1.21.1-2.3a-BETA.jar'
+filename = 'Create-DnDesire-1.20.1-0.1b.Release-Early-Dev.jar'
 name = 'Create: Dreams & Desires'
 side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.3a-BETA'
 
 [download]
-hash = 'c2d70c5ef259d20ba60a66fa146fc0d37b588c5c42c0028a650af1e10678c4e4604966aa46efd25f3824df4620ef719daa8e54fc82220d7a1b22a7fcaa4e2077'
+hash = '19f93bb5229f7ae92ad27617c7ffee1dcf75b0c67942887a297fd03f26cd4886660cc7620d9e9a062d0434c6a36874e159820d878dbb36128274d5b35821ce90'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/JmybsfWs/versions/bqMxf6Ua/DnDesires-1.21.1-2.3a-BETA.jar'
+url = 'https://cdn.modrinth.com/data/JmybsfWs/versions/GZxkqfDv/Create-DnDesire-1.20.1-0.1b.Release-Early-Dev.jar'
 
 [update.modrinth]
 mod-id = 'JmybsfWs'
-version = 'bqMxf6Ua'
+version = 'GZxkqfDv'

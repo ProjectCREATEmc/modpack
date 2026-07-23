@@ -1,3 +1,4 @@
+
 #.
 #Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
 [client]
@@ -12,8 +13,7 @@
 	useConductorSpyShader = true
 	#.
 	#Vertical offset for track overlays
-	# Default: 0.0
-	# Range: -256.0 ~ 256.0
+	#Range: -256.0 ~ 256.0
 	trackOverlayOffset = 0.0
 	#.
 	#Whether to actually apply the dev cape (ignored for non-devs)
@@ -25,14 +25,6 @@
 	#.
 	#Should flywheels and blocks extending the FlywheelBlock class be animated when apart of trains?
 	animatedFlywheels = true
-	#.
-	#Speed multiplier for flywheel animations on trains (0.1 = slow, 0.5 = default, 1.0 = fast)
-	# Default: 0.5
-	# Range: 0.0 ~ 1.0
-	flywheelSpeedMultiplier = 0.5
-	#.
-	#Force-exit the game if it hangs on the NVIDIA Linux GL-teardown bug at shutdown (issue #267). Disable if a driver update fixes the hang for you
-	nvidiaShutdownWatchdog = true
 
 	#.
 	#Smoke Settings
@@ -48,13 +40,11 @@
 			#.
 			#[in Ticks]
 			#Lifetime of smoke particles emitted by contraptions
-			# Default: 500
-			# Range: 20 ~ 1000
+			#Range: 20 ~ 1000
 			smokeLifetime = 500
 			#.
 			#Smoke emission rate on contraptions
-			# Default: 0.75
-			# Range: 0.0 ~ 10.0
+			#Range: 0.0 ~ 10.0
 			smokePercentage = 0.75
 			#.
 			#Smoke texture quality
@@ -73,3 +63,18 @@
 			#.
 			#Spawn steam on an interval
 			spawnSteam = false
+
+	#.
+	#Journeymap Settings
+	[client.journeymap]
+		#.
+		#[in Ticks]
+		#Journeymap train overlay update time
+		#Range: 1 ~ 600
+		updateRate = 1
+		#.
+		#[in Ticks]
+		#Journeymap train overlay old marker removal check time
+		#Range: 10 ~ 1200
+		removeObsoleteRate = 200
+

@@ -1,33 +1,16 @@
-filename = 'sliceanddice-neoforge-4.3.2.jar'
+filename = 'sliceanddice-forge-3.3.0.jar'
 name = 'Create Slice & Dice'
-side = ''
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '4.3.2'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5093797c46be646a9af44aace05e43a5705a3bd59927c0fa0e6a3e0e00fdf4222d85eca06d4be6381915f87a064488174fa690218f380c156ae46d0b725b0cc4'
+hash = 'de6dff745e4ed632de34ea53c0156da75777f06dcdf68f5174505ce982260c23dc6b50c0d27411c04605f0bf2cfc0ceaa7d5e6068bc5959dcbda3bdcaa8db7c8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/GmjmRQ0A/versions/cV2GZBSJ/sliceanddice-neoforge-4.3.2.jar'
+url = 'https://cdn.modrinth.com/data/GmjmRQ0A/versions/bKH5nqMk/sliceanddice-forge-3.3.0.jar'
 
 [update.modrinth]
 mod-id = 'GmjmRQ0A'
-version = 'cV2GZBSJ'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'R2OftAxM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'LNytGWDc'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'JWGBpFUP'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ordsPcFz'
-type = 'REQUIRED'
+version = 'bKH5nqMk'

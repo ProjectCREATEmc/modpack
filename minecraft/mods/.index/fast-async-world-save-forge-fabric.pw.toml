@@ -1,21 +1,16 @@
-filename = 'fastasyncworldsave-1.21-2.6.jar'
-name = 'Fast Async World Save[Forge/Neo/Fabric]'
+filename = 'fastasyncworldsave-1.20.1-2.0.jar'
+name = 'Fast Async World Save[Forge/Fabric]'
 side = 'server'
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'fastasyncworldsave-1.21-2.6.jar'
 
 [download]
-hash = '87e019715314631f2c8288cf7c73a52a61b2d61b'
+hash = '3731eac6308d6fdb2dcdf0acf26446c0e5128790'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6935204
+file-id = 5218101
 project-id = 951499
-
-[[x-prismlauncher-dependencies]]
-addonId = '326652'
-type = 'REQUIRED'

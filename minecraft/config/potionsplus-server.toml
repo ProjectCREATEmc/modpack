@@ -1,7 +1,0 @@
-enableSkills = true
-# Default: 16
-# Range: > 0
-potionDrinkTimeTicks = 16
-# Default: 0
-# Range: > 0
-potionUseCooldownTimeTicks = 0

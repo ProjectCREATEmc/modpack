@@ -1,0 +1,16 @@
+filename = 'inventorio-mc1.20.1-forge-v1.10.3.jar'
+name = 'Inventorio'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '06ce54e617f6d056ffb3d6e22cd5136cd96973c780c67aa0291ec2d3980bcd30b28a107440391f960bc58213ff2d11e5de233e00514d96177fb722225e89ee9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LcafSQPm/versions/gkZdlKIX/inventorio-mc1.20.1-forge-v1.10.3.jar'
+
+[update.modrinth]
+mod-id = 'LcafSQPm'
+version = 'gkZdlKIX'
