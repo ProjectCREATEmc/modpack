@@ -19,8 +19,6 @@ https://prismlauncher.org/
 
 # Installation
 
-## Method 1 (Recommended)
-
 ### Step 1 - Download the Modpack
 
 Download the latest `.zip` release from the GitHub Releases page.
