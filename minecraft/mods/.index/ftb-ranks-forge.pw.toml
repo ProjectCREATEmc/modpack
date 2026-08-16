@@ -1,25 +1,25 @@
-filename = 'ftb-ranks-neoforge-2101.1.3.jar'
-name = 'FTB Ranks (NeoForge)'
-side = ''
+filename = 'ftb-ranks-neoforge-2101.1.4.jar'
+name = 'FTB Ranks'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[NEOFORGE][1.21.1] FTB Ranks 2101.1.3'
+x-prismlauncher-version-number = '[NEOFORGE][1.21.1] FTB Ranks 2101.1.4'
 
 [download]
-hash = '07fdfa3a75c3481770ce0118090a347d89e3a560'
+hash = '949fb102ee3c696e5baa097bd4d8fb6943e404c8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6431744
+file-id = 8519426
 project-id = 314905
 
 [[x-prismlauncher-dependencies]]
-addonId = '419699'
+addonId = '404465'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '404465'
+addonId = '419699'
 type = 'REQUIRED'
