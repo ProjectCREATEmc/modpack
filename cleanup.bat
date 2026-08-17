@@ -21,7 +21,6 @@ if exist "minecraft\webcache2" rmdir /s /q "minecraft\webcache2"
 
 REM Player-specific/runtime files
 if exist "minecraft\command_history.txt" del /f /q "minecraft\command_history.txt"
-if exist "minecraft\servers.dat" del /f /q "minecraft\servers.dat"
 if exist "minecraft\servers.dat_old" del /f /q "minecraft\servers.dat_old"
 
 REM Uncomment these two if you DON'T want to ship player graphics/control settings
