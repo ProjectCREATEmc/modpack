@@ -1,1 +1,52 @@
-minecraft/logs/*
+# Minecraft runtime / generated data
+minecraft/logs/
+minecraft/crash-reports/
+minecraft/debug/
+minecraft/.mixin.out/
+minecraft/downloads/
+
+# Local / per-user mod data
+minecraft/local/
+
+# Worlds
+minecraft/saves/
+minecraft/backups/
+
+# Player-specific files
+minecraft/command_history.txt
+minecraft/options.txt
+minecraft/optionsof.txt
+minecraft/servers.dat
+minecraft/servers.dat_old
+
+# Screenshots
+minecraft/screenshots/
+
+# Runtime caches / temporary data
+minecraft/cache/
+minecraft/.cache/
+minecraft/webcache/
+minecraft/webcache2/
+
+# Java / JVM crash files
+hs_err_pid*
+replay_pid*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Generic temporary/backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*~
