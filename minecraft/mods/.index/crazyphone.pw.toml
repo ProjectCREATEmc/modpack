@@ -1,0 +1,21 @@
+filename = 'crazyphone-1.8.0-beta.6.jar'
+name = 'CrazyPhone'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'crazyphone-1.8.0-beta.6.jar'
+
+[download]
+hash = '5f10e5d1230774a5e80b199844c6b2494fff48ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9371496
+project-id = 1646289
+
+[[x-prismlauncher-dependencies]]
+addonId = '416089'
+type = 'OPTIONAL'

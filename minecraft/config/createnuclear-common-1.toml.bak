@@ -1,4 +1,3 @@
-
 #.
 #Modify CreateNuclear's impact on your terrain
 [worldGen]
@@ -14,17 +13,20 @@
 	#.
 	#Uranium rod lifespan in reactor
 	#20 ticks = 1 second
-	#Range: 100 ~ 5000
+	# Default: 3600
+	# Range: 100 ~ 5000
 	"Uranium rod lifespan" = 3600
 	#.
 	#Graphite rod lifespan in reactor
 	#20 ticks = 1 second
-	#Range: 100 ~ 5000
+	# Default: 3600
+	# Range: 100 ~ 5000
 	"Graphite rod lifespan" = 3600
 	#.
 	#Maximum heat a reactor block can handle
 	#Avoids reactor failure due to excessive heat
-	#Range: 200 ~ 1000
+	# Default: 1000
+	# Range: 200 ~ 1000
 	"Maximum reactor heat" = 1000
 
 #.
@@ -32,15 +34,17 @@
 ["Explosion Reactor"]
 	#.
 	#.
-	#Range: > -2147483648
+	# Default: 10
+	# Range: > -2147483648
 	"Size of the reactor explosion" = 10
 	#.
 	#Explanation: 0 = no explosion, 1 = current explosion, 2 = new explosion.
-	#Range: 0 ~ 2
+	# Default: 1
+	# Range: 0 ~ 2
 	"Type of explosion" = 1
 	#.
 	#Create Nuclear Explosion Time
 	#300 ticks = 15 seconds
-	#Range: 100 ~ 1200
+	# Default: 600
+	# Range: 100 ~ 1200
 	"Duration before exploration" = 600
-

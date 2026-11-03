@@ -1,18 +1,18 @@
-filename = 'petrolsparts-1.21.1-1.2.10.jar'
+filename = 'petrolsparts-1.21.1-1.3.7.jar'
 name = "Petrol's Parts"
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21.1-1.2.10'
+x-prismlauncher-version-number = '1.21.1-1.3.7'
 
 [download]
-hash = '02786c714aa166c7ad91b3ce0cdf2349b33c7489eea7694b41776034fec8a257ec93b74229c1b6e5a98e0cf4e9dc2cf2c4a32e653e9f837dadbd0d343cc95685'
+hash = 'c1b0a92e74a1ed217972480f8e83c02d2bfed07e53d89f5973b28bd0a28b41713019e6251f2ce7605067fc93a129820f95ef49537a3c3dc16ae6afd5f28d91b0'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/AN0CZD9P/versions/PFCZOOlN/petrolsparts-1.21.1-1.2.10.jar'
+url = 'https://cdn.modrinth.com/data/AN0CZD9P/versions/2WrLbZW1/petrolsparts-1.21.1-1.3.7.jar'
 
 [update.modrinth]
 mod-id = 'AN0CZD9P'
-version = 'PFCZOOlN'
+version = '2WrLbZW1'

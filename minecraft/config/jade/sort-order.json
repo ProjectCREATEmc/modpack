@@ -78,5 +78,6 @@
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
   "petrolpark:contamination": null,
-  "petrolpark:drying_rack": null
+  "petrolpark:drying_rack": null,
+  "petrolpark:flags": null
 }

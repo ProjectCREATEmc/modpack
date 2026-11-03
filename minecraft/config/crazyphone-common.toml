@@ -1,0 +1,72 @@
+#Maximum number of messages kept on disk per conversation. Older messages beyond this are discarded when a new one arrives.
+# Default: 300
+# Range: 10 ~ 10000
+maxStoredMessagesPerConversation = 300
+#Maximum number of messages sent to a client in one page when it opens/scrolls a conversation.
+# Default: 100
+# Range: 10 ~ 1000
+maxMessagesSentPerRequest = 100
+#Maximum number of image messages kept on disk per conversation (images are the heaviest payload, capped separately from text messages).
+# Default: 50
+# Range: 5 ~ 2000
+maxImagesStoredPerConversation = 50
+#Maximum number of photos (both resolutions) kept on disk per owning phone number - the oldest is discarded once a new one exceeds this, independent of conversation history trimming.
+# Default: 300
+# Range: 10 ~ 5000
+maxPhotosStoredPerOwner = 300
+#Target height in pixels for a photo's low-quality preview (thumbnails, chat bubbles) - lower looks more like pixel art, higher looks closer to the full photo. 0 disables the separate preview entirely (the full photo is reused as-is, so nothing extra is stored). If the photo's own height is already shorter than this, no resize happens either - a photo is never upscaled for its preview.
+# Default: 14
+# Range: 0 ~ 256
+photoThumbnailPixelHeight = 14
+#Maximum size in pixels, on the longer side, for a photo's full-quality version (fetched on demand when a photo is opened full-size) - independent of the player's actual render resolution. Higher looks sharper but costs more storage/network per photo.
+# Default: 1024
+# Range: 64 ~ 4096
+photoFullMaxDimension = 1024
+#Server-side ceiling, in bytes, on a photo's full-quality upload (defense in depth against a modified client - the real client already stays under this by construction, via photoFullMaxDimension). Raise this if you raise photoFullMaxDimension high enough that legitimate uploads start getting rejected.
+# Default: 4000000
+# Range: 100000 ~ 50000000
+photoFullMaxUploadBytes = 4000000
+#Whether the mayor election/voting feature (accessible from the phone) is enabled.
+mayorElectionFeatureEnabled = true
+#Whether voice calls are enabled. Has no effect if Simple Voice Chat isn't installed or voicechatIntegrationEnabled is false.
+callsFeatureEnabled = true
+#Whether recording and sending voice messages is enabled. Has no effect if Simple Voice Chat isn't installed or voicechatIntegrationEnabled is false.
+voiceMessagesFeatureEnabled = true
+#Whether sending images from the phone's album into a conversation is enabled.
+imagesFeatureEnabled = true
+#Master switch for the Simple Voice Chat integration (calls + voice messages). Has no effect if Simple Voice Chat itself isn't installed.
+voicechatIntegrationEnabled = true
+#How long a call rings before an unanswered callee is treated as a missed call. Distinct from aloneInCallKickSeconds, which only applies once a call is actually connected.
+# Default: 30
+# Range: 5 ~ 120
+callRingTimeoutSeconds = 30
+#How long a call stays open with only one participant left before that participant is automatically removed from it.
+# Default: 5
+# Range: 1 ~ 60
+aloneInCallKickSeconds = 5
+#How long a player can be without their phone (dropped, or moved to another inventory) during a call before it actually ends - picking it back up within this window keeps the call going uninterrupted.
+# Default: 5
+# Range: 0 ~ 60
+phoneDropGraceSeconds = 5
+#Whether the In Call screen's live 3D participant previews ("video") are available at all. When false, every participant is shown as a flat 2D head and the per-player video toggle is hidden.
+callVideoEnabled = true
+#Maximum number of voice messages (with their audio) kept on disk per conversation - voice audio is the heaviest payload, capped separately from text/image messages.
+# Default: 30
+# Range: 5 ~ 500
+maxVoiceMessagesStoredPerConversation = 30
+#Maximum length of a single voice message recording, in seconds - recording auto-stops once this is reached.
+# Default: 60
+# Range: 5 ~ 600
+maxVoiceMessageRecordingSeconds = 60
+#Whether the Soulbound enchantment actually keeps enchanted items on death. Does not affect whether it can still be found or applied.
+soulboundEnchantmentEnabled = true
+#Whether the Crazy Phone item survives death on its own, without needing the Soulbound enchantment applied to it.
+phoneSoulboundByDefault = false
+#Whether the Crazy Phone item can be crafted. When false, the recipe is disabled - phones can still be given via /crazyphone give.
+crazyPhoneCraftingEnabled = true
+#Maximum size, in blocks on a side, a placed photo frame can be resized up to via its own right-click resize dialog.
+# Default: 32
+# Range: 1 ~ 32
+maxPhotoFrameSizeBlocks = 32
+#Whether registering a new phone requires setting a password. When false, the password step can be left empty - a phone registered without one can never be locked.
+requirePhonePassword = true

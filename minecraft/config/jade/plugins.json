@@ -92,7 +92,7 @@
   },
   "petrolpark": {
     "drying_rack": true,
-    "contamination": true
+    "flags": true
   },
   "corpse": {
     "corpse": true

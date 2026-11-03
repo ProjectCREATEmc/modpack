@@ -1,20 +1,20 @@
-filename = 'brassworksmissions-1.13.jar'
-name = 'Create: Brassworks Missions'
-side = 'both'
+filename = 'brassworksmissions-2.1-hotfix.jar'
+name = 'Create Brassworks Missions'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.13'
+x-prismlauncher-version-number = '2.1-hotfix'
 
 [download]
-hash = '94293557c1a7c0d20e13f7057d1fa7a6fc18dbe09d338fda8487dfa35fce485bef5c881a5289508a3ec34a0d3bd5c1d8c717ecb904c226c04b2e7d13bdd553a3'
+hash = '65fe8efac914fb596752cf66e7db5510ac1bb2d3623d26449374204d287edce033ec2be4230dda5f83b99cb0f280eb1766649a270610d54f9375837283b1a068'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/uUhZpyjI/versions/FTx6Sme7/brassworksmissions-1.13.jar'
+url = 'https://cdn.modrinth.com/data/uUhZpyjI/versions/gnSAwQ2A/brassworksmissions-2.1-hotfix.jar'
 
 [update.modrinth]
 mod-id = 'uUhZpyjI'
-version = 'FTx6Sme7'
+version = 'gnSAwQ2A'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'LNytGWDc'
